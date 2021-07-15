@@ -2,6 +2,10 @@ import React,{useState} from 'react'
 import Button from '@material-ui/core/Button';
 import AddRoundedIcon from '@material-ui/icons/AddRounded';
 import ListCom from './ListCom';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
+
+
 
 
 const ToDoList = () => {
@@ -30,6 +34,7 @@ const ToDoList = () => {
                     <br />
                     <h1>ToDo List</h1>
                     <br />
+                    
                     <input type="text" placeholder='Add an Items'
                      onChange={itemEvent}
                         value={item}
@@ -40,9 +45,9 @@ const ToDoList = () => {
 
                     <br />
                     <ol>
-                        {newitem.map((val, index) => {
-                            return <ListCom key={index} text={val}/>
-                        })}
+                            {newitem.map((val, index) => {
+                                return <ListCom key={index} text={val}/>
+                            })}
                     </ol>
                     <br />
                 </div>

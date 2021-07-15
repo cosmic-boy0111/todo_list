@@ -15,7 +15,7 @@
 
   height: 100vh;
 
-  background: #7bed9f;
+  background: #08a5aa;
 
   display: flex;
 
@@ -42,6 +42,7 @@
   box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
 
   border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 
 }
 
@@ -97,16 +98,18 @@ input {
 
   font-size: 20px;
 
-  font-weight: 500;
+  font-weight: bold;
 
-  width: 60%;
+  width: 73%;
 
   border-bottom: 2px solid #8566aa;
 
   outline: none;
 
   margin-right: 20px;
-
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  padding: 20px;
+  border-radius: 5px;
 }
 
 
@@ -126,6 +129,7 @@ input {
   /* plz subscibe to thapatechnical channel */
 
   border-radius: 50% !important;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 
 }
 
@@ -178,14 +182,21 @@ input {
 ol {
 
 
-
-  margin-top: 30px;
+  
+  margin: 0 10px;
+  margin-top: 20px;
+  padding: 5px 0;
 
 
 
   /* margin-right: 50px; */
+  /* border: 2px solid red; */
+  height: 323px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 
-
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 
 }
 
@@ -209,7 +220,7 @@ ol li {
 
 
 
-  font-weight: 500;
+  font-weight: bold;
 
 
 
